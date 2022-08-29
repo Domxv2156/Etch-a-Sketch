@@ -1,0 +1,29 @@
+#container {
+    
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+
+.board {
+    width: 500px;
+    height: 500px;
+    display: grid;
+   
+}
+
+
+
+.grid {
+
+    background-color: rgb(255, 255, 255);
+    outline: 1px solid;
+   
+}
+.grid:hover {
+    background-color:black;
+    
+}
+
+
