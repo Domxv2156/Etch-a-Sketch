@@ -9,7 +9,9 @@
 .board {
     width: 500px;
     height: 500px;
-    background-color: lightblue;
+    background-color: rgb(233, 246, 250);
+    outline: 1px solid;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
     display: grid;
    
 }
@@ -18,7 +20,7 @@
 
 .grid {
 
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(223, 246, 248);
     outline: 1px solid;
    
 }
