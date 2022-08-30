@@ -14,9 +14,14 @@ for(let i = 0; i<input*input; i++) {
 const square = document.createElement('div');
     square.classList.add('grid');
     board.appendChild(square);
-    }
+    square.addEventListener('dragenter', () => {
+      square.classList.remove('grid');
+      square.classList.add('newGrid');
+   });
    }
+   };
 };
+
 
 
 

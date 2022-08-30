@@ -9,6 +9,7 @@
 .board {
     width: 500px;
     height: 500px;
+    background-color: lightblue;
     display: grid;
    
 }
@@ -21,9 +22,11 @@
     outline: 1px solid;
    
 }
-.grid:hover {
+
+.newGrid {
     background-color:black;
-    
 }
+
+
 
 
